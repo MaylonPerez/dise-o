@@ -1,0 +1,474 @@
+html,
+body {
+    background-image: url(../img/fondo1366.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    overflow: hidden
+}
+
+.diamante1{
+    position: absolute;
+    width: 15%;
+    animation-name: diamantito1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamantito1{
+    0% {
+        top: -800%;
+        transform: rotate(400deg);
+        left: 20%;
+    }
+
+
+    20% {
+        top: -550%;
+        transform: rotate(310deg);
+        left: 30%;
+    }
+
+
+    40% {
+        top: -98%;
+        transform: rotate(400deg);
+        left: 20%;
+    }
+
+    60% {
+        top: -32%;
+        transform: rotate(310deg);
+        left: 30%;
+
+    }
+
+    80% {
+        top: 34%;
+        transform: rotate(400deg);
+        left: 20%;
+    }
+
+
+    100% {
+        top: 200%;
+        transform: rotate(310deg);
+        left: 30%;
+    }
+}
+
+
+.diamante2{
+    position: absolute;
+    width: 15%;
+    animation-name: diamantito2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamantito2{
+    0% {
+        top: -230%;
+        transform: rotate(420deg);
+        left: 30%;
+    }
+
+    20% {
+        top: -165%;
+        transform: rotate(250deg);
+        left: 60%;
+    }
+
+    30% {
+        top: -130%;
+        transform: rotate(300deg);
+        left: 30%;
+    }
+
+    40% {
+        top: -100%;
+        transform: rotate(260deg);
+        left: 60%;
+    }
+
+    50% {
+        top: -65%;
+        transform: rotate(280deg);
+        left: 30%;
+    }
+
+    60% {
+        top: -20%;
+        transform: rotate(250deg);
+        left: 60%;
+
+    }
+
+    70% {
+        top: 0%;
+        transform: rotate(290deg);
+        left: 30%;
+    }
+
+    80% {
+        top: 50%;
+        transform: rotate(250deg);
+        left: 60%;
+    }
+
+    90% {
+        top: 100%;
+        transform: rotate(290deg);
+        left: 30%;
+    }
+
+    100% {
+        top: 110%;
+        transform: rotate(250deg);
+        left: 60%;
+    }
+}
+
+.diamante3{
+    position: absolute;
+    width: 7%;
+    animation-name: diamantito3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamantito3{
+    0% {
+        top: -230%;
+        transform: rotate(380deg);
+        left: 60%;
+    }
+
+
+    20% {
+        top: -164%;
+        transform: rotate(310deg);
+        left: 80%;
+    }
+
+    40% {
+        top: -98%;
+        transform: rotate(400deg);
+        left: 60%;
+    }
+
+    60% {
+        top: -32%;
+        transform: rotate(310deg);
+        left: 80%;
+
+    }
+
+    80% {
+        top: 34%;
+        transform: rotate(400deg);
+        left: 60%;
+    }
+
+
+    100% {
+        top: 120%;
+        transform: rotate(310deg);
+        left: 80%;
+    }
+}
+
+ .diamante4{
+    position: absolute;
+    width: 15%;
+    animation-name: diamantito4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamantito4{
+    0% {
+        top: -230%;
+        transform: rotate(380deg);
+        left: 80%;
+    }
+
+
+    20% {
+        top: -164%;
+        transform: rotate(310deg);
+        left: 100%;
+    }
+
+
+    40% {
+        top: -98%;
+        transform: rotate(400deg);
+        left: 80%;
+    }
+
+    60% {
+        top: -32%;
+        transform: rotate(310deg);
+        left: 100%;
+
+    }
+
+    80% {
+        top: 34%;
+        transform: rotate(400deg);
+        left: 80%;
+    }
+
+
+    100% {
+        top: 120%;
+        transform: rotate(310deg);
+        left: 100%;
+    }
+} 
+
+.diamante5{
+    position: absolute;
+    width: 15%;
+    animation-name: diamantito5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes diamantito5{
+    0% {
+        top: -230%;
+        transform: rotate(380deg);
+        left: 100%;
+    }
+
+
+    20% {
+        top: -164%;
+        transform: rotate(310deg);
+        left: 120%;
+    }
+
+
+    40% {
+        top: -98%;
+        transform: rotate(400deg);
+        left: 100%;
+    }
+
+    60% {
+        top: -32%;
+        transform: rotate(310deg);
+        left: 120%;
+
+    }
+
+    80% {
+        top: 34%;
+        transform: rotate(400deg);
+        left: 100%;
+    }
+
+
+    100% {
+        top: 600%;
+        transform: rotate(310deg);
+        left: 120%;
+    }
+} 
+
+
+.Guacamaya {
+    width: 100%;
+    height: 100%;
+}
+
+.contentGuacamaya {
+    width: 20%;
+    height: 20%;
+    left: -230px;
+    /* Para que este escondido desde el inicio de la pagina así hace el efecto como que sale */
+    top: 40%;
+    /* Para que salga de abajo de la pagina*/
+    position: relative;
+    z-index: 2;
+    animation-name: Guacamaya;
+    /* Se llama la animación del Keyframes*/
+    animation-duration: 20s;
+    /* le damos una duración de 5 segundo*/
+   /*  animation-iteration-count: infinite; */
+    /* Le decimos que se repita infinitas veces*/
+}
+
+
+@keyframes Guacamaya {
+    /* Creamos la animacion*/
+    0% {
+        left: -110px;
+        top: 40%
+    }
+    /*Le damos un inicio, tiene que ser igual a su inicio original*/
+    50% {
+        left: 50%;
+        top: 5%;
+    }
+    /* Le decimos que cuando llegue al 50% de la pantalla se ubique en el top 5 porciento o sea arriba*/
+    100% {
+        left: 100%;
+        top: -40%;
+    }
+    /* Le decimos que cuando llegue al 100% de la pantalla se ubique en el top 30% porciento o sea al medio*/
+}
+
+.tiburcio {
+    top: 95%;
+    position: absolute;
+    width: 35%;
+    left: 75%;
+    z-index: 8;
+    animation-name: Tiburcito;
+    animation-delay: 10s;
+    animation-duration: 5s;
+}
+
+@keyframes Tiburcito {
+    0% {
+        transform: rotate(410deg);
+        left: 70%;
+        top: 100%;
+    }
+    44% {
+        top: 35%;
+    }
+    50% {
+        top: 37%;
+    }
+    100% {
+        transform: rotate(290deg);
+        left: 5%;
+        top: 100%;
+    }
+}
+.splash1{
+    top: -1%;
+    position: absolute;
+	width: 110%;
+	height: 110%;
+    left: 10%;
+    z-index: 9; 
+    visibility: hidden;
+    animation-name: splashito1;
+    animation-delay: 10000ms; 
+    animation-duration: 1350ms;  	
+}
+.splash2{
+    top: -5%;
+    position: absolute;
+	width: 110%;
+	height: 110%;
+    left: -47%;
+    z-index: 9; 
+    visibility: hidden;
+    animation-name: splashito2;
+    animation-delay: 12500ms; 
+    animation-duration: 1250ms;  		
+}
+@keyframes  splashito1{
+    0%{ left: 10%; top: -1%; visibility: visible;}
+    100%{ left: 10%; top: -1%; visibility: hidden;} 
+    }
+
+@keyframes  splashito2{
+    0%{ left: -48%; top: -5%; visibility: visible;}
+    100%{ left: -48%; top: -5%;visibility: hidden;} 
+    }
+
+.olas {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: -110px;
+    z-index: 9;
+    margin: 0 auto;
+}
+
+.bosque {
+    top: 0%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    z-index: 10;
+}
+
+#enlace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    z-index: 10;
+}
+
+.diamante {
+    width: 50%!important;
+}
+
+.diamanteContent {
+    height: 50px;
+}
+
+.menuMovil {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    .olas,
+    .bosque,
+    .diamanteContent {
+        visibility: hidden;
+    }
+    .menuMovil {
+        visibility: visible;
+    }
+    .bg-light {
+        background-color: transparent!important;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        color: rgb(37, 37, 37);
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .olas,
+    .bosque,
+    .tiburcio,
+    .Guacamaya,
+    .diamanteContent {
+        visibility: hidden;
+    }
+    /* .menu {
+        visibility: visible;
+    } */
+}
+
+@media screen and (max-width: 1366px) {
+    .bosque {
+        top: 0%;
+        position: absolute;
+        height: 101%;
+        width: 50%;
+    }
+    .olas {
+        top: 11%;
+        position: absolute;
+        width: 105%;
+        height: 96%;
+        margin: 0 auto;
+    }
+}
